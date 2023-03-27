@@ -1,0 +1,9 @@
+<--* Deleting mac unnecceasry files *-->
+
+Navigate to directory you want to use this in.
+Click address bar, COPY folder location (“C:\Users\yourname\Desktop\yourfolder” for example)
+Open CMD.
+TYPE: cd.
+CMD should show that you're now in folder.
+PASTE “del /s /q /f /a ._*”
+List of deleted files should appear.
